@@ -1,8 +1,10 @@
 // ==UserScript==
 // @name        99dmg Profile Finder
 // @description	Fügt Links zum schnellen Finden von Spielerprofilen ein
-// @version     1
+// @version     1.0.1
+// @author	Lefty
 // @namespace   https://github.com/leftyms
+// @downloadURL	https://raw.githubusercontent.com/leftyms/99dmgprofilefinder/master/99dmg_Profile_Finder.user.js
 // @match       *://csgo.99damage.de/de/leagues/teams/*
 // @require     https://code.jquery.com/jquery-3.2.1.min.js
 // @grant       none
@@ -98,14 +100,14 @@ jQuery.noConflict()(function($) {
 	}
 	
 	function createTeamLinks(){
-		const teamNameElement = $("#content h2")[0];
-		if(teamNameElement == null || teamNameElement.length == 0){
+		const TEAM_NAME_ELEMENT = $("#content h2")[0];
+		if(TEAM_NAME_ELEMENT == null || TEAM_NAME_ELEMENT.length == 0){
 			throw "[Exception 005: TeamName could not be found]";
 		}
-		const teamName = $(teamNameElement).html().split('(')[0];
-		$(teamNameElement).append(createSteamLink(TYPE_TEAM, teamName));
-		$(teamNameElement).append(createFaceItLink(TYPE_TEAM, teamName));
-		$(teamNameElement).append(createESEALink(TYPE_TEAM, teamName));
+		var teamName = $(TEAM_NAME_ELEMENT).html().split('(')[0];
+		$(TEAM_NAME_ELEMENT).append(createSteamLink(TYPE_TEAM, teamName));
+		$(TEAM_NAME_ELEMENT).append(createFaceItLink(TYPE_TEAM, teamName));
+		$(TEAM_NAME_ELEMENT).append(createESEALink(TYPE_TEAM, teamName));
 	}
 	
 	try{
