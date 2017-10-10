@@ -1,8 +1,10 @@
 // ==UserScript==
 // @name        99dmg Profile Finder
 // @description	Fügt Links zum schnellen Finden von Spielerprofilen ein
-// @version     1
+// @version     1.0.1
+// @author	Lefty
 // @namespace   https://github.com/leftyms
+// @downloadURL	https://raw.githubusercontent.com/leftyms/99dmgprofilefinder/master/99dmg_Profile_Finder.user.js
 // @match       *://csgo.99damage.de/de/leagues/teams/*
 // @require     https://code.jquery.com/jquery-3.2.1.min.js
 // @grant       none
