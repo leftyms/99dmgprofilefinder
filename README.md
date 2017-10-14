@@ -5,3 +5,5 @@ Auf dem Spielerprofil ist zusätzlich ein Link um das aktuelle oder alte Teams z
 ---
 
 <img src="https://raw.githubusercontent.com/leftyms/99dmgprofilefinder/v1.0.1/doc/img/99dmg_vergleich.png"/>
+
+Sollte kompatibel mit aktuellen Versionen von Firefox/Chromium/Opera, Greasemonkey/Tampermonkey/Violentmonkey sein.
