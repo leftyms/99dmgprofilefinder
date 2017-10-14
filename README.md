@@ -1,5 +1,6 @@
 # 99dmg Profile Finder
-Fügt Links zum schnellen Finden von Spieler- und Teamprofilen ein
+Fügt auf den Profil des Spielers und Teams Suchlinks ein um schnell das Steam-, FaceIt- und ESEA-Profil finden zu können.
+Auf dem Spielerprofil ist zusätzlich ein Link um das aktuelle oder alte Teams zu finden.
 
 ---
 
